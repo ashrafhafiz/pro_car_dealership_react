@@ -1,0 +1,18 @@
+/* modal */
+.showcase {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: var(--transparentBlue);
+  display: none;
+}
+.showcase-close {
+  font-size: 2rem;
+  color: var(--mainYellow);
+}
+.showcase-show {
+  display: flex;
+}

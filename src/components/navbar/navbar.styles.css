@@ -1,0 +1,37 @@
+/* navbar */
+.navbar {
+  background: var(--mainWhite);
+  transition: all 2s ease-in-out;
+}
+.navbar-change {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background: var(--mainYellow);
+  z-index: 100;
+}
+.navbar-icon {
+  font-size: 2rem;
+  color: var(--mainBlue);
+}
+.navbar-toggler {
+  outline-color: var(--mainBlue) !important;
+}
+.nav-link {
+  color: var(--mainBlack);
+  text-transform: capitalize;
+}
+.nav-link:hover {
+  color: var(--mainBlue);
+}
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--mainBlue);
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+.nav-icon:hover {
+  color: var(--mainBlack);
+}
