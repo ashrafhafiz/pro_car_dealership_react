@@ -10,7 +10,7 @@ import Question from "./components/question/question.component";
 import Featured from "./components/featured/featured.component";
 import Gallery from "./components/gallery/gallery.component";
 import Modal from "./components/modal/modal.component";
-import Contact from "./contact/contact.component";
+import Contact from "./components/contact/contact.component";
 import Services from "./components/services/services.component";
 import Quotes from "./components/quotes/quotes.component";
 import Footer from "./components/footer/footer.component";
